@@ -25,7 +25,7 @@ public class Main {
         printDeadlinesUsingStreams(tasksData);
 
         String event = "event";
-        for(Task t: filterTaskByString(tasksData, event)){
+        for(Task t: filterTaskByString(tasksData, "11")){
             System.out.println(t);
         }
     }
